@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Above tag gives the information about document type -->
+<!-- This is how html comments look like-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Survey</title>
+    <!-- with the use of title tag we can give title to webpage -->
+</head>
+<body>
+
+<!-- this is survey form we need to submit information regarding employees so thats why we will use form here -->
+    <form>
+<div align="center" style="border: 5px solid red;">
+
+    <h1>Employee Interest Survey Form</h1>
+    Enter your name :
+
+    <input type="text" name ="Username" size="35" maxlength="35"  value="">
+
+</br></br>
+Enter your department :
+<input type ="text" name ="department" size="35" maxlength="35" value=""></br></br>
+Tell us something about yourself:
+
+<textarea name="comments" cols="30" rows="4"></textarea></br></br>
+Do you exercise at home ?
+<p>
+<input type="radio" name="exe" value="1">Yes
+<input type="radio" name="exe" value="2">No
+</p>
+How do you like to read about your favorite topics ?
+<p>
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web"> Online Resource
+<input type="checkbox" name="App"> Phone Apps
+<input type="checkbox" name="Magazines"> Magazines
+</p>
+What genre of movies do you like ?
+
+<select name="moviepref"><option>
+<option value="1" selected="true"> Comedy
+<option value="2">Action
+<option value="3">Romance
+<option value="4">Thriller
+<option value="5">Horror
+<option value="3">Biopic    
+</select>
+</br></br>
+<input type="submit" value="submit form">
+
+</div>
+</form>    
+</body>
+</html>
